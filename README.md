@@ -39,7 +39,7 @@ It also contains a class called JsonData that contains all the information.
 This folder is for Springboot functionalities. It has a ResumeBuilderApplication Class that runs the SPringBoot Application. It also has two other folders that contain the apicontroller and service layer.
 
 ## How to run the code.
-
+You can run this through command line:
 After satisfying the pre requisites Run the following command on the terminal in the same directory where the pom.xml is present:
 
 ```
@@ -47,4 +47,7 @@ After satisfying the pre requisites Run the following command on the terminal in
 ./mvnw install
 ./mvnw spring-boot:run
 ```
-Then once the connection is extablished. You can run a curl request or postman.
+
+You can also use Spring Tool Suites. Import the projet into STS and then run it as a SPringBoot App.
+
+Either way, once the connection is extablished. You can run a curl request or postman.
